@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .spoil-button {
+            font-size: 20px;
+            padding: 8px;
+        }
+
+        .spoil-message {
+            backgroud-color: #fff;
+            border: 2px solid;
+            font-size: 18px;
+            display: none;
+            padding: 16px;
+            margin-bottom: 20px;
+        }
+
+        .spoil-message.show {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <p>
+        <img style="height: 20em;" src="bird.jpg" alt="" class="bird-image">
+    </p>
+    <p>
+        <a href="https://javascript.info"  class="js-link">Javascript Info</a>
+    </p>
+
+    <p>
+        <input type="text" class="text-input" value="ฟากฟ้ายามเย็นเห็นแสงรำไร" data-hidden-message="น่ารัก">
+    </p> -->
+    <h2>สวัสดีครับ</h2>
+    <p>เปิดปิดเนื้อหาด้วยปุ่มสปอยล์</p>
+    <p>
+        <button class="spoil-button" data-message-id="spoil-message-1">สปอยล์</button>
+    </p>
+    <div class="spoil-message" id="spoil-message-1">
+        กล่องข้อความ id "spoil-message-1"
+    </div>
+    <p>
+        <button class="spoil-button" data-message-id="spoil-message-2">สปอยล์</button>
+    </p>
+    <div class="spoil-message" id="spoil-message-2">
+        กล่องข้อความ id "spoil-message-2"
+    </div>
+
+    <script src="spoil.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin : 0;
+            padding : 0;
+            box-sizing: border-box;
+        }
+        img{
+            width: 300px;
+            padding: 100px 100px;
+            position: absolute;
+        }
+        .container{
+            margin: 0px 500px;
+            border: 3px solid gold;
+            background : #000000;
+            width: 500px;
+            height: 500px;
+            position: relative;
+        }
+        #btn1{
+            position: absolute;
+            bottom: 0px;
+            left: 50px;
+            bottom: 50px;
+        }
+        #btn2{
+            position: absolute;
+            bottom: 0px;
+            right: 50px;
+            bottom: 50px;
+        }
+        p{
+            text-align: center;
+            font-weight: 1000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="rabbit.jpg" alt="" class="image">
+        <button id="btn1">ก่อนหน้า</button>
+        <button id="btn2">ถัดไป</button>
+    </div>
+    <p>กดคีย์บอร์ดเหอะ ขี้เกียจกดปุ่ม</p>
+    <script src="key.js"></script>
+</body>
+</html>

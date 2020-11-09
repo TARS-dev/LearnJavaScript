@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .todo-title {
+            font-size: 20px;
+            border: 1px solid darkgray;
+            box-sizing: border-box;
+            width: 100%;
+            padding: 10px;
+        }
+
+        .add-todo {
+            font-size: 20px;
+            width: 100%;
+            padding: 10px;
+        }
+
+        .todo {
+            font-size: 20px;
+            background-color: gold;
+            border: 2px solid #333333;
+            box-sizing: border-box;
+            margin-bottom: 10px;
+            padding: 16px;
+            position: relative;
+        }
+
+        .remove-todo {
+            font-size: 16px;
+            position: absolute;
+            top: 6px;
+            right: 6px;
+        }
+    </style>
+</head>
+
+
+<body>
+    <p>
+        <input type="text" class="todo-title">
+    </p>
+    <p>
+        <button class="add-todo">เพิ่ม</button>
+    </p>
+    <p>
+    <div class="todo-list"></div>
+    </p>
+    <script src="modify.js"></script>
+</body>
+
+</html>

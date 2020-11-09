@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            width: 150px;
+            height: 150px;
+        }
+        .equip-slot{
+            background-color: aqua;
+            display: inline-block;
+            padding: 1rem;
+        }
+        .weapon-list{
+            background: red;
+            display: inline-block;
+            padding: 1em;
+        }
+    </style>
+</head>
+<body>
+    <h2>Select Animal</h2>
+    <div>
+        <div class="equip-slot">
+            <img src="rabbit.jpg" alt="" class="equip-weapon">
+        </div>
+    </div>
+    <br>
+    <div>
+        <div class="weapon-list">
+            <img src="rabbit.jpg" id="rabbit" draggable="true" alt="" class="weapon">
+            <img src="panda.jpg" id="panda" draggable="true" alt="" class="weapon">
+            <img src="bird.jpg" id="bird" draggable="true" alt="" class="weapon">
+        </div>
+    </div>
+    <script src="drag.js"></script>
+</body>
+</html>

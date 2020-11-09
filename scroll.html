@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .top-header {
+            padding: 1em;
+            position: fixed;
+            top: 0;
+            background-color: yellow;
+            z-index: 99;
+            transition: top 0.3s ease-out;
+            width: 100%;
+        }
+        .top-header.hide {
+            top: -61px;
+        }
+        img{
+            width: 20em;
+            height: 20em;
+            overflow: hidden;
+            position: relative;
+            
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header class="top-header"></header>
+    <div class="content">
+        <img src="rabbit.jpg" alt=""><br>
+        <img src="panda.jpg" alt=""><br>
+        <img src="bird.jpg" alt="">
+    </div>
+    <script src="scroll.js"></script>
+</body>
+
+</html>

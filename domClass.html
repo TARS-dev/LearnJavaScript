@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .message{
+        border: 2px solid;
+        padding: 10px;
+        margin: 5px;
+        align-items: center;
+        text-align: center;
+    }
+    /* .message.orange-box{
+        background-color: orange;
+    }
+    .message.green-box{
+        background-color: green;
+    } */
+    .dark-theme{
+        color: white;
+        background-color: #000000;
+    }
+    .dark-theme .message{
+        color: #ffffff;
+        background-color: #000000;
+        border-color: gold;
+    }
+</style>
+<body>
+    <button class="theme-btn">Change Theme</button>
+    <div class="message orange-box">please listen to me</div>
+    <script src="domClass.js"></script>
+</body>
+</html>
